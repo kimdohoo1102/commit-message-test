@@ -1,6 +1,12 @@
-x = input(' put first number : ')
-y = input(' put second number : ')
+def add(x,y) -> str:
 
-sum = int(x)+int(y)
+    return int(x)+int(y)
 
-print(sum)
+if __name__ == "__main__":
+    
+    x = input('first num : ')
+    y = input('second num: ')
+
+    sum = add(x,y)
+
+    print(sum)
